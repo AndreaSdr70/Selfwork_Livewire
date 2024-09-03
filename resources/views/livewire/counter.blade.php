@@ -13,4 +13,8 @@
 {{-- onClick() --}}
 <button wire:click="decrement" class="btn btn-danger">-</button>
 
+<button wire:click="incrementByNum({{$myNum}})" class="btn btn-info">+{{$myNum}}</button>
+
+<button wire:click="decrementByNum({{$myNumN}})" class="btn btn-info">-{{$myNumN}}</button>
+
 </div>

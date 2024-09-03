@@ -11,7 +11,7 @@
     <div class="row">
       <div class="col-12 col-md-6">
         <livewire:counter></livewire:counter>
-
+       
       </div>
     </div>
   </div>
