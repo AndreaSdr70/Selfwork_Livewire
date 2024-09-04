@@ -23,7 +23,8 @@ class Counter extends Component
         $this->count--;
     }
  
-    public function incrementByNum($num){ // Action parametrica
+    public function incrementByNum($num)
+    { // Action parametrica
         $this->count+=$num;
         // $this->count= $this->count + $num;   
         
